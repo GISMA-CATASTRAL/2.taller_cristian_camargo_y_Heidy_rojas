@@ -3,14 +3,18 @@
    Hoja de estilos principal
 ========================================= */
 
+/* reset global*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
 
 /* =========================================
    CONFIGURACIÓN GENERAL
 ========================================= */
-
-* {
-    box-sizing: border-box;
-}
 
 html {
     scroll-behavior: smooth;
